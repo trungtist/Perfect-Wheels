@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Wheels</title>
+
+    <!-- ===== Logo Website ===== -->
+    <link rel="shortcut icon" href="./assets/img/favicon/icon.png" type="image/x-icon">
+    <!-- Font Awesome 6.1.1 CDNjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ===== Main style ===== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- ===== Responsive style ===== -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- File header component js -->
+    <script src="./components/header.js" defer></script>
+    <!-- File footer component js -->
+    <script src="./components/footer.js" defer></script>
+</head>
+
+<body>
+    <header-component></header-component>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__contaier container">
+                <div class="home__content d-flex">
+                    <div class="home__left">
+                        <div class="section__title home__title">
+                            <h1>Viet Nam</h1>
+                            <h1>Car Rentals</h1>
+                        </div>
+                        <div class="home__rentalDates">
+                            <h4 class="home__subtitle">Choose rental dates</h4>
+                            <div class="home__dates d-flex">
+                                <div class="home__pickUp">
+                                    <p class="home__pickUp-title">Pick-up date</p>
+                                    <input type="date" name="pick-up" class="home__date">
+                                </div>
+                                <div class="home__return">
+                                    <p class="home__return-title">Return date</p>
+                                    <input type="date" name="return" class="home__date">
+                                </div>
+                            </div>
+                            <div class="button button-hover home__searchDate">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <a href="" class="nav__link">
+                                    Search
+                                    <i class="fa-brands fa-searchengin nav__link-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__right">
+                        <img class="home__img" src="./assets/img/Car/introductionCar.png" alt="Introduction Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="type section">
+            <div class="type__container container">
+                <div class="section__title type__title">
+                    <h2>Car Type</h2>
+                </div>
+                <div class="type__menu list d-flex">
+                    <div class="type__item card-item">
+                        <img src="./assets/img/Car/car-type/car-type1.png" alt="Economy Car Type"
+                            class="type__item-img">
+                        <div class="text-overlay type__item-info">
+                            <h2>Economy</h2>
+                            <p>
+                                Economy cars are smaller vehicles that typically seat up to four passengers.
+                                Their high fuel economy makes them great for city driving,
+                                while their size makes them easy to maneuver through traffic.
+                            </p>
+                            <div class="button type__readMore">
+                                <a href="" class="nav__link">Read more</a>
+                                <i class="fa-solid fa-chevron-right type__item-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type__item card-item">
+                        <img src="./assets/img/Car/car-type/car-type3.png" alt="Standard Car Type"
+                            class="type__item-img">
+                        <div class="text-overlay type__item-info">
+                            <h2>Standard</h2>
+                            <p>
+                                A standard car is standard-sized, which means it is bigger than a compact car but not
+                                quite as big as a full-size sedan.
+                                It is easy to seat five comfortably in a standard sedan.
+                                A standard car also has room to accommodate luggage and provides a pleasant drive, no
+                                matter the distance.
+                            </p>
+                            <div class="button type__readMore">
+                                <a href="" class="nav__link">Read more</a>
+                                <i class="fa-solid fa-chevron-right type__item-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type__item card-item">
+                        <img src="./assets/img/Car/car-type/car-type2.png" alt="Minivan Car Type"
+                            class="type__item-img">
+                        <div class="text-overlay type__item-info">
+                            <h2>Minivan</h2>
+                            <p>
+                                A minivan is a vehicle built atop a platform of a small car with a low body,
+                                sliding or hinged rear doors, and 3 rows of seats that fit 8-9 passengers in total.
+                            </p>
+                            <div class="button type__readMore">
+                                <a href="" class="nav__link">Read more</a>
+                                <i class="fa-solid fa-chevron-right type__item-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type__item card-item">
+                        <img src="./assets/img/Car/car-type/car-type4.png" alt="Luxury Car Type" class="type__item-img">
+                        <div class="text-overlay type__item-info">
+                            <h2>Luxury</h2>
+                            <p>
+                                A luxury car is a car that provides increased levels of comfort, equipment, amenities,
+                                quality, performance,
+                                and status compared to regular cars for an increased price.
+                            </p>
+                            <div class="button type__readMore">
+                                <a href="" class="nav__link">Read more</a>
+                                <i class="fa-solid fa-chevron-right type__item-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages section">
+            <div class="advantages__container fixed__bgContainer">
+                <div class="advantages__content container">
+                    <div class="section__title advantages__title">
+                        <h2>Our Advantages</h2>
+                    </div>
+                    <div class="advantages__benefit list d-flex">
+                        <div class="advantages__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-car item-icon"></i>
+                            </div>
+                            <h4>Over 50 Cars</h4>
+                            <p></p>
+                        </div>
+                        <div class="advantages__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-dollar-sign item-icon"></i>
+                            </div>
+                            <h4>Low Prices</h4>
+                            <p></p>
+                        </div>
+                        <div class="advantages__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-key item-icon"></i>
+                            </div>
+                            <h4>Car Rental Delivery</h4>
+                            <p></p>
+                        </div>
+                        <div class="advantages__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-headset item-icon"></i>
+                            </div>
+                            <h4>24 Hours Support</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="reviews section">
+            <div class="reviews__container container">
+                <div class="reviews__title section__title">
+                    <h2>Reviews</h2>
+                </div>
+                <div class="reviews__card list d-flex">
+                    <div class="reviews__item card-item">
+                        <div class="reviews__item-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/27.jpg" alt="Reviewer 1">
+                        </div>
+                        <h2>Christian Flores</h2>
+                        <h4>christian.lores@email.com</h4>
+                        <div class="reviews__item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Greate company. We rented a car for a long time and
+                            were very happy with the service, staff and car.
+                            The prices are reasonable and the condition of the car is excellent,
+                            the service is top notch and respected. Next time, i will only rent from this company.</p>
+                    </div>
+                    <div class="reviews__item card-item">
+                        <div class="reviews__item-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/96.jpg" alt="Reviewer 2">
+                        </div>
+                        <h2>Veronica Rubio</h2>
+                        <h4>veronica.rubio@email.com</h4>
+                        <div class="reviews__item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>A day ago I rented a car. From the very beginning the company showed a high level of service.
+                            I rented an Audi A6. For one day, very satisfied with everything.</p>
+                    </div>
+                    <div class="reviews__item card-item">
+                        <div class="reviews__item-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Reviewer 3">
+                        </div>
+                        <h2>Lucas David</h2>
+                        <h4>lucas.david@email.com</h4>
+                        <div class="reviews__item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Greate Company</p>
+                    </div>
+                </div>
+                <button class="button reviews__item-prev">
+                    <i class="fa-solid fa-angles-left"></i>
+                </button>
+                <button class="button reviews__item-next">
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
+            </div>
+
+        </section>
+        <section class="conditions section">
+            <div class="conditions__container fixed__bgContainer">
+                <div class="conditions__content container">
+                    <div class="section__title conditions__title">
+                        <h2>Terms and Conditions</h2>
+                    </div>
+                    <div class="conditions__benefit list d-flex">
+                        <div class="conditions__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-file item-icon"></i>
+                            </div>
+                            <h4>Passport</h4>
+                        </div>
+                        <div class="conditions__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-id-card item-icon"></i>
+                            </div>
+                            <h4>Driver License</h4>
+                        </div>
+                        <div class="conditions__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-coins item-icon"></i>
+                            </div>
+                            <h4>$65 Deposit</h4>
+                        </div>
+                        <div class="conditions__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-user item-icon"></i>
+                            </div>
+                            <h4>21 Years Old</h4>
+                        </div>
+                        <div class="conditions__item item d-flex">
+                            <div class="item__icon-container d-flex">
+                                <i class="fa-solid fa-calendar-times item-icon"></i>
+                            </div>
+                            <h4>Two Years Of Experience</h4>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer-component></footer-component>
+
+    <!-- Main js -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
